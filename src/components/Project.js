@@ -9,7 +9,7 @@ export default function Project({ project }) {
             <div className="title">{title}</div>
             <img src={img} alt=""/>
             <div className="tags">
-                {tags.map((tag, index) => <div className="tag">{tag}</div>)}
+                {tags.map((tag, index) => <div key={index} className="tag">{tag}</div>)}
             </div>
             <a href={link} target="_blank" rel="noreferrer">Visit</a>
         </ProjectStyle>

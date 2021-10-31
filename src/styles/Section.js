@@ -7,10 +7,11 @@ export const Section = styled.div`
     .section-title {
         font-size: 60px;
         line-height: 80px;
-        background: linear-gradient(120deg, #fff, #aaa);
+        background: linear-gradient(120deg, #fff, #888);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
+        margin-bottom: 40px;
     }
 
     @media (max-width: 768px) {

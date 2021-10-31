@@ -34,7 +34,6 @@ const HomeContent = styled.div`
 const Button = styled.a`
     display: block;
     cursor: pointer;
-    margin-top: 40px;
     height: 60px;
     width: 160px;
     border-radius: 30px;

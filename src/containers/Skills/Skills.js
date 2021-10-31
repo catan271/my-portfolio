@@ -2,22 +2,33 @@ import React from 'react'
 import styled from 'styled-components'
 import Skill from '../../components/Skill'
 
-import { skills } from '../../contants/SkillsInfo'
+import { skills } from '../../constants/SkillsData'
 import { Section } from '../../styles/Section'
 
 export default function Skills() {
     return (
-        <Section id="skills" style={{minHeight: '80vh'}}>
+        <SkillsSection id="skills">
             <h2 className="section-title">Skills</h2>
             <SkillGrid>
                 {skills.map((skill, index) => <Skill key={index} skill={skill}/>)}
             </SkillGrid>
-        </Section>
+        </SkillsSection>
     )
 }
 
+const SkillsSection = styled(Section)`
+    min-height: 440px;
+
+    @media (max-width: 768px) {
+        min-height: 480px;
+    }
+
+    @media (max-width: 480px) {
+        min-height: 560px;
+    }
+`
+
 const SkillGrid = styled.div`
-    margin-top: 40px;
     display: grid;
     row-gap: 12px;
     grid-template-columns: repeat(3, 32%);

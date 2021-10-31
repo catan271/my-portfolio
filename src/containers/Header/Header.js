@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <HeaderStyle>
             <div>
-                <i class="fab fa-500px"></i>
+                <i className="fab fa-500px"></i>
                 Portfolio
             </div>
             <div className="navigation">
@@ -16,9 +16,9 @@ export default function Header() {
                     <a href="#contact">Contact</a>
                 </div>
                 <div className="social">
-                    <a href="https://github.com/catan271/" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/catan271/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/catan271/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/catan271/" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/catan271/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/catan271/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
                 </div>
             </div>
         </HeaderStyle>

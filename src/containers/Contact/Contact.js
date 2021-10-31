@@ -9,12 +9,12 @@ export default function Contact() {
             <ContactStyle>
                 <div className="contact-info">
                     <div><i className="fas fa-phone-volume"/> <a href="tel:0355811557">0355-811-557</a></div>
-                    <div><i class="fas fa-envelope-open-text"/> <a href="mailto:catan271@gmail.com">catan271@gmail.com</a></div>
+                    <div><i className="fas fa-envelope-open-text"/> <a href="mailto:catan271@gmail.com">catan271@gmail.com</a></div>
                 </div>
                 <div className="social">
-                    <a href="https://github.com/catan271/" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/catan271/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.facebook.com/catan271/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/catan271/" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/catan271/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/catan271/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
                 </div>
             </ContactStyle>
         </Section>
@@ -22,7 +22,6 @@ export default function Contact() {
 }
 
 const ContactStyle = styled.div`
-    padding-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,7 +40,11 @@ const ContactStyle = styled.div`
     .social {
         height: 100%;
         display: flex;
-        align-items: flex-start;
         gap: 12px;
+    }
+
+    @media (max-width: 560px) {
+        flex-direction: column;
+        gap: 24px;
     }
 `

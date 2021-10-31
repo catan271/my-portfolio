@@ -6,6 +6,7 @@ import { SectionSeparator } from '../styles/Section'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
 import Contact from './Contact/Contact'
+import Achievements from './Achievements/Achievements'
 
 export default function Portfolio() {
     return (
@@ -17,6 +18,8 @@ export default function Portfolio() {
                 <Projects/>
                 <SectionSeparator/>
                 <Skills/>
+                <SectionSeparator/>
+                <Achievements/>
                 <SectionSeparator/>
                 <Contact/>
             </div>
