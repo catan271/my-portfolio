@@ -64,7 +64,6 @@ const ScrollIndex = styled.div`
     align-items: center;
     gap: 4px;
     margin-top: 24px;
-    margin-left: 24px;
 
     button {
         height: 24px;
@@ -74,6 +73,7 @@ const ScrollIndex = styled.div`
     }
 
     .item {
+        margin: auto;
         height: 4px;
         width: 4px;
         border-radius: 50%;
