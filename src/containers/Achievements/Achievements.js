@@ -14,7 +14,7 @@ export default function Achievements() {
     const handleScroll = (e) => {
         const scrollLeft = e.target.scrollLeft;
         const index = Math.floor((scrollLeft + itemWidth / 2) / (gap + itemWidth));
-        setActive(index);
+        if (index !== active) setActive(index);
     }
 
     const handleClick = (index) => {

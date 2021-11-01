@@ -3,6 +3,7 @@ import mineSweeper from '../assets/pictures/minesweeper.png'
 import musicPlayer from '../assets/pictures/music-player.png'
 import alitrade from '../assets/pictures/alitrade.png'
 import chatApp from '../assets/pictures/chat-app.png'
+import taskApp from '../assets/pictures/task-app-api.png'
 
 export const projects = [
     {
@@ -34,5 +35,11 @@ export const projects = [
         title: 'Realtime Chat App',
         tags: ['NodeJS', 'Socket.io'],
         link: 'https://reon-chat.herokuapp.com/'
+    },
+    {
+        img: taskApp,
+        title: 'Task App API',
+        tags: ['ExpressJS', 'SwaggerUI'],
+        link: 'https://catan-task-app.herokuapp.com/api-docs/'
     }
 ]
