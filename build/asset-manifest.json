@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5fb7358d.chunk.css",
+    "main.js": "./static/js/main.9d2bccb2.chunk.js",
+    "runtime-main.js": "./static/js/runtime-main.330a8758.js",
+    "static/js/2.c6ece861.chunk.js": "./static/js/2.c6ece861.chunk.js",
+    "static/js/3.8ea8966a.chunk.js": "./static/js/3.8ea8966a.chunk.js",
+    "index.html": "./index.html",
+    "static/js/2.c6ece861.chunk.js.LICENSE.txt": "./static/js/2.c6ece861.chunk.js.LICENSE.txt",
+    "static/media/alitrade.237637e4.png": "./static/media/alitrade.237637e4.png",
+    "static/media/chat-app.11381b79.png": "./static/media/chat-app.11381b79.png",
+    "static/media/dictionary.4610422f.png": "./static/media/dictionary.4610422f.png",
+    "static/media/all.min.css": "./static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/fcc-logo.76c22422.png": "./static/media/fcc-logo.76c22422.png",
+    "static/media/hackerrank-badge.c25111a4.png": "./static/media/hackerrank-badge.c25111a4.png",
+    "static/media/minesweeper.794332de.png": "./static/media/minesweeper.794332de.png",
+    "static/media/music-player.2b57a135.png": "./static/media/music-player.2b57a135.png",
+    "static/media/task-app-api.d746167c.png": "./static/media/task-app-api.d746167c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.330a8758.js",
+    "static/js/2.c6ece861.chunk.js",
+    "static/css/main.5fb7358d.chunk.css",
+    "static/js/main.9d2bccb2.chunk.js"
+  ]
+}
