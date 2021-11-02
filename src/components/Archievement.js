@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components';
 
 export default function Achievement({ achievement }) {
-    const {logo, organization, title} = achievement;
+    const {logo, organization, title, link} = achievement;
 
     return (
-        <AchievementStyle className="achievement">
+        <AchievementStyle className="achievement" href={link} target="_blank" rel="noreferrer">
             <img className="logo" src={logo} alt=""/>
             <div className="decoration">
                 <div className="strike"></div>
@@ -17,7 +17,7 @@ export default function Achievement({ achievement }) {
     )
 }
 
-const AchievementStyle = styled.div`
+const AchievementStyle = styled.a`
     display: flex;
     flex-direction: column;
     align-items: flex-end;

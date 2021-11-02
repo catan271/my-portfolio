@@ -32,6 +32,7 @@ const HomeContent = styled.div`
 `
 
 const Button = styled.a`
+    margin-top: 32px;
     display: block;
     cursor: pointer;
     height: 60px;
