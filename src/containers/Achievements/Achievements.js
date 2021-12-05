@@ -1,24 +1,31 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 
 import { Section } from '../../styles/Section'
-import { achievements } from '../../constants/AchievementsData'
-import Achievement from '../../components/Archievement'
+import Achievement from '../../components/Achievement'
+import Service from '../../api/Api'
 
 const gap = 24, itemWidth = 160;
 
 export default function Achievements() {
-    const achievementNode = useRef();
-    const [active, setActive] = useState(0);
+    const achievementNode = useRef()
+    const [active, setActive] = useState(0)
+    const [achievements, setAchievements] = useState([])
+
+    useEffect(() => {
+        Service.getAchievements()
+            .then((res) => setAchievements(res.data))
+            .catch(console.log)
+    }, [])
 
     const handleScroll = (e) => {
-        const scrollLeft = e.target.scrollLeft;
-        const index = Math.floor((scrollLeft + itemWidth / 2) / (gap + itemWidth));
-        if (index !== active) setActive(index);
+        const scrollLeft = e.target.scrollLeft
+        const index = Math.floor((scrollLeft + itemWidth / 2) / (gap + itemWidth))
+        if (index !== active) setActive(index)
     }
 
     const handleClick = (index) => {
-        const left = index * (itemWidth + gap);
+        const left = index * (itemWidth + gap)
         achievementNode.current.scrollTo({left, behavior: 'smooth'})
     }
 

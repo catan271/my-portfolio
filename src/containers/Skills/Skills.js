@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import Skill from '../../components/Skill'
 
-import { skills } from '../../constants/SkillsData'
+import Service from '../../api/Api'
 import { Section } from '../../styles/Section'
 
 export default function Skills() {
+    const [skills, setSkills] = useState([])
+
+    useEffect(() => {
+        Service.getSkills()
+            .then(res => setSkills(res.data))
+            .catch(console.log)
+    }, [])
+
     return (
         <SkillsSection id="skills">
             <h2 className="section-title">Skills</h2>

@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
-import { projects } from '../../constants/ProjectsData'
 import { Section } from '../../styles/Section'
 import Project from '../../components/Project'
+import Service from '../../api/Api'
 
 export default function Projects() {
+    const [projects, setProjects] = useState([])
+
+    useEffect(() => {
+        Service.getProjects()
+            .then((res) => {
+                setProjects(res.data)
+            })
+            .catch(console.log)
+    }, [])
+
     return (
         <Section id="projects">
             <h2 className="section-title">
