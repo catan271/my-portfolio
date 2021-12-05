@@ -1,23 +1,18 @@
 {
   "files": {
     "main.css": "./static/css/main.5fb7358d.chunk.css",
-    "main.js": "./static/js/main.5c65b96d.chunk.js",
-    "runtime-main.js": "./static/js/runtime-main.330a8758.js",
-    "static/js/2.c6ece861.chunk.js": "./static/js/2.c6ece861.chunk.js",
-    "static/js/3.8ea8966a.chunk.js": "./static/js/3.8ea8966a.chunk.js",
+    "main.js": "./static/js/main.7771eacb.chunk.js",
+    "runtime-main.js": "./static/js/runtime-main.a444b750.js",
+    "static/js/2.d6b43a74.chunk.js": "./static/js/2.d6b43a74.chunk.js",
+    "static/js/3.bf1b045c.chunk.js": "./static/js/3.bf1b045c.chunk.js",
     "index.html": "./index.html",
-    "static/js/2.c6ece861.chunk.js.LICENSE.txt": "./static/js/2.c6ece861.chunk.js.LICENSE.txt",
-    "static/media/alitrade.007d48ba.png": "./static/media/alitrade.007d48ba.png",
-    "static/media/chat-app.02dc87e0.png": "./static/media/chat-app.02dc87e0.png",
-    "static/media/dictionary.8a24600f.png": "./static/media/dictionary.8a24600f.png",
-    "static/media/all.min.css": "./static/media/fa-solid-900.efbd5d20.eot",
-    "static/media/music-player.0c0c0653.png": "./static/media/music-player.0c0c0653.png",
-    "static/media/task-app-api.ec70986f.png": "./static/media/task-app-api.ec70986f.png"
+    "static/js/2.d6b43a74.chunk.js.LICENSE.txt": "./static/js/2.d6b43a74.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "./static/media/fa-solid-900.efbd5d20.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.330a8758.js",
-    "static/js/2.c6ece861.chunk.js",
+    "static/js/runtime-main.a444b750.js",
+    "static/js/2.d6b43a74.chunk.js",
     "static/css/main.5fb7358d.chunk.css",
-    "static/js/main.5c65b96d.chunk.js"
+    "static/js/main.7771eacb.chunk.js"
   ]
 }
