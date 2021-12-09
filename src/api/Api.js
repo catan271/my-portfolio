@@ -3,8 +3,8 @@ import axios from "axios";
 class Service {
     constructor() {
         this.api = axios.create({
-            baseURL: 'https://asia-southeast1-catan-portfolio.cloudfunctions.net/api',
-            // baseURL: 'http://localhost:5001/catan-portfolio/asia-southeast1/api',
+            baseURL: 'https://us-central1-catan-portfolio.cloudfunctions.net/api',
+            // baseURL: 'http://localhost:5001/catan-portfolio/us-central1/api',
             timeout: 10000
         })
     }
